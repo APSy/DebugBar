@@ -33,15 +33,15 @@ class DebugBar {
         self::printJS(null);
     }
 
-    private static function getNamespace () {
-        echo '<pre>Debug: ';
-        echo print_r(self::$stack, true);
-        echo '</pre>';
-    }
+//    private static function getNamespace () {
+//        echo '<pre>Debug: ';
+//        echo print_r(self::$stack, true);
+//        echo '</pre>';
+//    }
 
     private static function printJS ($params) {
         echo '<script type="text/javascript" src="DebugBar.js"></script>';
-        echo '<script type="text/javascript">init(' . self::$totalTime . ','. self::$mem .', '.json_encode($_GET).', '.json_encode($_POST).', '.json_encode($_SESSION).', '.json_encode(self::$stack).', '.json_encode(self::$options).' )</script>';
+        echo '<script type="text/javascript">init(' . self::$totalTime . ','. self::$mem .', {get:'.json_encode($_GET).',length:'.count($_GET).'}, '.json_encode($_POST).', [{session:'.json_encode($_SESSION).'}], '.json_encode(self::$stack).', '.json_encode(self::$options).' )</script>';
     }
 
     /*private static function printBar () {

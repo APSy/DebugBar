@@ -1,10 +1,11 @@
 #debugBar {
     width: 100%;
     height: 25px;
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    bottom: 0;
     left: 0;
     border: 1px solid darkgray;
+    z-index: 10000;
 }
 
 #debugBar_memory {
@@ -37,4 +38,34 @@
 
 #toggle_get:hover, #toggle_post:hover, #toggle_session:hover {
     color:red;
+}
+
+#infoBox {
+    position: fixed;
+    left: 0;
+    bottom: -202px;
+    width: 309px;
+    height: 200px;
+    border: 1px solid darkgray;
+    -webkit-transition-property: bottom;
+    -webkit-transition-duration: 0.5s;
+}
+
+/*@-webkit-keyframes move {
+    100%{
+        left: 200px;
+    }
+}*/
+
+#infoBox.show {
+    /*-webkit-animation: move 1s linear;
+    -moz-animation: move 1s linear;
+    -o-animation: move 1s linear;
+    -ms-animation: move 1s linear;
+    animation: move 1s linear;*/
+    bottom: 26px;
+}
+
+#infoBox .hide {
+    bottom: -202px;
 }

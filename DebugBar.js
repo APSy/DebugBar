@@ -16,16 +16,20 @@ var DebugBar = function() {
         'memory': 0.0
     };
 
+    this.lastAction = '';
+
     // PHP ARRAY TO STRING JAVASCRIPT NICE
-    this.arrayToString = function(arr) {
+    /*this.arrayToString = function(arr) {
         var string = "";
-        for(var i in arr) {
-            console.log(i);
-            string += i;
+        console.log(arr);
+        for(var key in arr) {
+            console.log(arr[key]);
+            console.log(key);
+            string += key;
         }
         return string;
     };
-
+*/
     this.init = function(get, post, session, stack) {
         // create and add the Elements
         this.createEleAndAdd('div', 'debugBar');
@@ -37,13 +41,14 @@ var DebugBar = function() {
         tmp.appendChild(timeText);
         tmp = document.getElementById('debugBar_memory');
         tmp.appendChild(memText);
+
+        this.addInfoBox();
+
+
         if (get.length != 0) {
             this.createEleAndAdd('div', 'debugBar_get', 'debugBar');
             this.createAndAttachTextNode('$_GET', 'debugBar_get');
-            this.createEleAndAdd('div', 'debugBar_get_content', 'debugBar_get');
-            console.log(get);
-            var getContent = this.arrayToString(get);
-            this.createAndAttachTextNode(getContent, 'debugBar_get_content');
+            /*var getContent = this.arrayToString(get);*/
             this.bindEvent('debugBar_get');
         }
         if (post.length != 0) {
@@ -62,6 +67,12 @@ var DebugBar = function() {
             this.bindEvent('debugBar_stack');
         }
 
+    };
+
+    this.addInfoBox = function() {
+        var id = 'infoBox';
+        this.createEleAndAdd('div', id);
+        var infoBox = document.getElementById(id);
     };
 
     this.createAndAttachTextNode = function(text, parentID) {
@@ -118,9 +129,19 @@ var DebugBar = function() {
 
 function togglePopUp(event) {
     var eventId = event.toElement.id;
+    var infoBox = document.getElementById('infoBox');
+
+    if(infoBox.className == 'show') {
+        infoBox.className = 'hide'
+    } else {
+        alert(111);
+        infoBox.className = 'show';
+    }
+
+
+
     switch(eventId) {
         case 'debugBar_get':
-            alert('get');
             break;
         case 'debugBar_post':
             alert('post');
