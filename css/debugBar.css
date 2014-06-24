@@ -21,7 +21,7 @@
 #debugBar div {
     min-height: 20px;
     float: left;
-    width: 60px;
+    width: 75px;
     border-left: 1px solid darkgray;
     border-right: 1px solid darkgray;
     text-align: center;
@@ -44,11 +44,12 @@
     position: fixed;
     left: 0;
     bottom: -202px;
-    width: 309px;
-    height: 200px;
+    min-width: 500px;
+    min-height: 200px;
     border: 1px solid darkgray;
     -webkit-transition-property: bottom;
     -webkit-transition-duration: 0.5s;
+    z-index: 1000;
 }
 
 /*@-webkit-keyframes move {

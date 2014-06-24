@@ -16,6 +16,11 @@ var DebugBar = function() {
         'memory': 0.0
     };
 
+    this.get = [];
+    this.post = [];
+    this.stack = [];
+    this.session = [];
+
     this.lastAction = '';
 
     // PHP ARRAY TO STRING JAVASCRIPT NICE
@@ -32,6 +37,10 @@ var DebugBar = function() {
 */
     this.init = function(get, post, session, stack) {
         // create and add the Elements
+        this.post = post;
+        this.get = get;
+        this.session = session;
+        this.stack = stack;
         this.createEleAndAdd('div', 'debugBar');
         this.createEleAndAdd('div', 'debugBar_time', 'debugBar');
         this.createEleAndAdd('div', 'debugBar_memory', 'debugBar');
@@ -48,7 +57,6 @@ var DebugBar = function() {
         if (get.length != 0) {
             this.createEleAndAdd('div', 'debugBar_get', 'debugBar');
             this.createAndAttachTextNode('$_GET', 'debugBar_get');
-            /*var getContent = this.arrayToString(get);*/
             this.bindEvent('debugBar_get');
         }
         if (post.length != 0) {
@@ -81,8 +89,12 @@ var DebugBar = function() {
     };
 
     this.bindEvent = function(id) {
+        var get = this.get;
+        var post = this.post;
+        var session = this.session;
+        var stack = this.stack;
         document.getElementById(id).onclick = function(event) {
-            togglePopUp(event);
+            togglePopUp(event, get, post, session, stack );
         };
     };
 
@@ -127,9 +139,52 @@ var DebugBar = function() {
 
 };
 
-function togglePopUp(event) {
+var lastAction = '';
+
+function togglePopUp(event, get, post, session, stack) {
     var eventId = event.toElement.id;
     var infoBox = document.getElementById('infoBox');
+    // delete infobox content
+    infoBox.innerHTML = "";
+
+    switch(eventId) {
+        case 'debugBar_get':
+            infoBox.innerHTML = print_r(get.get);
+//            var tmp = document.createTextNode(print_r(get.get));
+//            infoBox.appendChild(tmp);
+            break;
+        case 'debugBar_post':
+            infoBox.innerHTML = print_r(post.post);
+            break;
+        case 'debugBar_session':
+            infoBox.innerHTML = print_r(session.session);
+            break;
+        case 'debugBar_stack':
+            infoBox.innerHTML = print_r(stack.stack);
+            break;
+        default:
+            break;
+    }
+    // save action so we can check if the same is clicked
+    if(lastAction == '') {
+        lastAction = eventId;
+//        alert("test");
+        // nothing clicked so show
+        infoBox.className = 'show';
+    }
+    else if(lastAction == eventId && infoBox.className == 'show') {
+        // hide
+        infoBox.className = 'hide';
+    }
+    else {
+        lastAction = eventId;
+        //show
+        infoBox.className = 'show';
+    }
+    lastAction = eventId;
+    console.log(lastAction);
+    return;
+
 
     if(infoBox.className == 'show') {
         infoBox.className = 'hide'
@@ -140,21 +195,6 @@ function togglePopUp(event) {
 
 
 
-    switch(eventId) {
-        case 'debugBar_get':
-            break;
-        case 'debugBar_post':
-            alert('post');
-            break;
-        case 'debugBar_session':
-            alert("session");
-            break;
-        case 'debugBar_stack':
-            alert("stack");
-            break;
-        default:
-            break;
-    }
 }
 
 function init(totalTime, memory, get, post, session, stack, optionalOptions) {
@@ -162,4 +202,46 @@ function init(totalTime, memory, get, post, session, stack, optionalOptions) {
     DBar.setOptions(optionalOptions);
     DBar.setTimeAndMemory(totalTime, memory);
     DBar.init(get, post, session, stack);
+}
+
+/**
+ * PHP. Javascript. Print_r. Nice. Object. Dumper.
+ * Original. Code: http://www.openjs.com/scripts/others/dump_function_php_print_r.php
+ * Modified. By. Claude. Hohl. Namics.
+ * Modified. By. Kenan Regez to output HTML indentation
+ */
+function print_r(arr, level) {
+
+    var dumped_text = "";
+    if (!level) level = 0;
+
+    //The padding given at the beginning of the line.
+    var level_padding = "";
+    var bracket_level_padding = "";
+
+    for (var j = 0; j < level + 1; j++) level_padding += "&nbsp;&nbsp;&nbsp;&nbsp;";
+    for (var b = 0; b < level; b++) bracket_level_padding += "&nbsp;&nbsp;&nbsp;&nbsp;";
+
+    if (typeof(arr) == 'object') { //Array/Hashes/Objects
+        dumped_text += "Array<br />";
+        dumped_text += bracket_level_padding + "(<br />";
+        for (var item in arr) {
+
+            var value = arr[item];
+
+            if (typeof(value) == 'object') { //If it is an array,
+                dumped_text += level_padding + "[" + item + "] => ";
+                dumped_text += print_r(value, level + 2);
+            } else {
+                dumped_text += level_padding + "[" + item + "] => " + value + "<br />";
+            }
+
+        }
+        dumped_text += bracket_level_padding + ")<br /><br />";
+    } else { //Stings/Chars/Numbers etc.
+        dumped_text = "===>" + arr + "<===(" + typeof(arr) + ")";
+    }
+
+    return dumped_text;
+
 }
