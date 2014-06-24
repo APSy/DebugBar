@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52303453-d6e1-474a-be6b-0e03f158fc3c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Auto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DebugBar.js" afterPath="$PROJECT_DIR$/DebugBar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class.DebugBar.php" afterPath="$PROJECT_DIR$/class.DebugBar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DebugBar.iws" />
@@ -31,19 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="class.DebugBar.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="class.DebugBar.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class.DebugBar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1530" selection-end="1530" vertical-scroll-proportion="1.3284132" vertical-offset="0" max-vertical-offset="882">
+            <state line="42" column="59" selection-start="1118" selection-end="1118" vertical-scroll-proportion="-18.833334" vertical-offset="214" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DebugBar.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DebugBar.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DebugBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="144" selection-start="3895" selection-end="3895" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="3924">
+            <state line="115" column="40" selection-start="3733" selection-end="3733" vertical-scroll-proportion="0.3180212" vertical-offset="1890" max-vertical-offset="3924">
               <folding />
             </state>
           </provider>
@@ -87,10 +83,10 @@
         <option value="$PROJECT_DIR$/DebugBar.php" />
         <option value="$PROJECT_DIR$/Auto.php" />
         <option value="$PROJECT_DIR$/js/javascript.js" />
-        <option value="$PROJECT_DIR$/DebugBar.js" />
         <option value="$PROJECT_DIR$/css/debugBar.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/class.DebugBar.php" />
+        <option value="$PROJECT_DIR$/DebugBar.js" />
       </list>
     </option>
   </component>
@@ -289,12 +285,16 @@
       <created>1403638662109</created>
       <updated>1403638662109</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Cleaned up the directories only the needed files are uploaded&#10;">
+      <created>1403638822150</created>
+      <updated>1403638822150</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="725" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -309,7 +309,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23990306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23990306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -336,7 +336,8 @@
     <MESSAGE value="Popup now shows content" />
     <MESSAGE value="Beta version finished" />
     <MESSAGE value="Beta version finished and polished a bit&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Beta version finished and polished a bit&#10;" />
+    <MESSAGE value="Cleaned up the directories only the needed files are uploaded&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up the directories only the needed files are uploaded&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -411,13 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DebugBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="144" selection-start="3895" selection-end="3895" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="3924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/debugBar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="18" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="1077" max-vertical-offset="1656">
@@ -436,7 +430,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class.DebugBar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1530" selection-end="1530" vertical-scroll-proportion="1.3284132" vertical-offset="0" max-vertical-offset="882">
+        <state line="42" column="59" selection-start="1118" selection-end="1118" vertical-scroll-proportion="-18.833334" vertical-offset="214" max-vertical-offset="882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DebugBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="40" selection-start="3733" selection-end="3733" vertical-scroll-proportion="0.3180212" vertical-offset="1890" max-vertical-offset="3924">
           <folding />
         </state>
       </provider>
