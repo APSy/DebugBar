@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52303453-d6e1-474a-be6b-0e03f158fc3c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DebugBar.js" afterPath="$PROJECT_DIR$/DebugBar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class.DebugBar.php" afterPath="$PROJECT_DIR$/class.DebugBar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/debugBar.css" afterPath="$PROJECT_DIR$/css/debugBar.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DebugBar.iws" />
@@ -36,19 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DebugBar.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DebugBar.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DebugBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="40" selection-start="3733" selection-end="3733" vertical-scroll-proportion="0.3180212" vertical-offset="1890" max-vertical-offset="3924">
+            <state line="115" column="40" selection-start="3733" selection-end="3733" vertical-scroll-proportion="0.0" vertical-offset="1278" max-vertical-offset="3924">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="debugBar.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="debugBar.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/debugBar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="18" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="1077" max-vertical-offset="1656">
+            <state line="48" column="19" selection-start="809" selection-end="809" vertical-scroll-proportion="0.22279793" vertical-offset="735" max-vertical-offset="1638">
               <folding />
             </state>
           </provider>
@@ -83,10 +82,10 @@
         <option value="$PROJECT_DIR$/DebugBar.php" />
         <option value="$PROJECT_DIR$/Auto.php" />
         <option value="$PROJECT_DIR$/js/javascript.js" />
-        <option value="$PROJECT_DIR$/css/debugBar.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/class.DebugBar.php" />
         <option value="$PROJECT_DIR$/DebugBar.js" />
+        <option value="$PROJECT_DIR$/css/debugBar.css" />
       </list>
     </option>
   </component>
@@ -289,7 +288,11 @@
       <created>1403638822150</created>
       <updated>1403638822150</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Cleaned up the directories only the needed files are uploaded&#10;">
+      <created>1403639538511</created>
+      <updated>1403639538511</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -412,13 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/debugBar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="18" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="1077" max-vertical-offset="1656">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="5" selection-start="257" selection-end="257" vertical-scroll-proportion="-15.0" vertical-offset="90" max-vertical-offset="1080">
@@ -437,7 +433,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DebugBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="40" selection-start="3733" selection-end="3733" vertical-scroll-proportion="0.3180212" vertical-offset="1890" max-vertical-offset="3924">
+        <state line="115" column="40" selection-start="3733" selection-end="3733" vertical-scroll-proportion="0.0" vertical-offset="1278" max-vertical-offset="3924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/debugBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="19" selection-start="809" selection-end="809" vertical-scroll-proportion="0.22279793" vertical-offset="735" max-vertical-offset="1638">
           <folding />
         </state>
       </provider>
