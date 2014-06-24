@@ -113,7 +113,7 @@ var DebugBar = function() {
         var style = document.createElement("style");
         var linkCss = document.createElement("link");
         linkCss.setAttribute('rel', 'stylesheet');
-        linkCss.setAttribute('href', './css/debugBar.css');
+        linkCss.setAttribute('href', 'DebugBar/css/debugBar.css');
         var css = document.createTextNode('#debugBar { color:'+this.defaultConfig.color+'; font-size:'+this.defaultConfig.fontsize+'px; } #infoBox {font-size:'+this.defaultConfig.fontsize+'px; }');
         style.appendChild(css);
         document.body.appendChild(linkCss);
