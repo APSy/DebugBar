@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52303453-d6e1-474a-be6b-0e03f158fc3c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DebugBar.iws" />
@@ -55,10 +56,10 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="3" selection-start="85" selection-end="85" vertical-scroll-proportion="0.22702703" vertical-offset="0" max-vertical-offset="936">
+            <state line="14" column="2" selection-start="319" selection-end="319" vertical-scroll-proportion="0.45405406" vertical-offset="0" max-vertical-offset="918">
               <folding>
                 <element signature="e#7#85#0" expanded="true" />
-                <element signature="e#639#693#0" expanded="true" />
+                <element signature="e#638#692#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -304,7 +305,11 @@
       <created>1403642550926</created>
       <updated>1403642550926</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added Comments for use and cleaned up the code a bit">
+      <created>1403642586765</created>
+      <updated>1403642586765</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -355,7 +360,8 @@
     <MESSAGE value="Removed display none to see animation" />
     <MESSAGE value="Corrected Path settings" />
     <MESSAGE value="Corrected Path settings&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected Path settings&#10;" />
+    <MESSAGE value="Added Comments for use and cleaned up the code a bit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Comments for use and cleaned up the code a bit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -380,7 +386,7 @@
         <state line="15" column="3" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="918">
           <folding>
             <element signature="e#7#85#0" expanded="true" />
-            <element signature="e#639#693#0" expanded="true" />
+            <element signature="e#638#692#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -397,7 +403,7 @@
         <state line="16" column="18" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="864">
           <folding>
             <element signature="e#7#85#0" expanded="true" />
-            <element signature="e#639#693#0" expanded="true" />
+            <element signature="e#638#692#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -414,7 +420,7 @@
         <state line="16" column="18" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="720">
           <folding>
             <element signature="e#7#85#0" expanded="true" />
-            <element signature="e#639#693#0" expanded="true" />
+            <element signature="e#638#692#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -456,10 +462,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="85" selection-end="85" vertical-scroll-proportion="0.22702703" vertical-offset="0" max-vertical-offset="936">
+        <state line="14" column="2" selection-start="319" selection-end="319" vertical-scroll-proportion="0.45405406" vertical-offset="0" max-vertical-offset="918">
           <folding>
             <element signature="e#7#85#0" expanded="true" />
-            <element signature="e#639#693#0" expanded="true" />
+            <element signature="e#638#692#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -13,7 +13,6 @@ use \Debug\DebugBar;
 // TODO: fix path problem maybe with you need to provide path to the DebugBar class
 DebugBar::start();
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
