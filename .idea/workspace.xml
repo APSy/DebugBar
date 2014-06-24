@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52303453-d6e1-474a-be6b-0e03f158fc3c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DebugBar.iws" />
@@ -301,7 +300,11 @@
       <created>1403640085374</created>
       <updated>1403640085374</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Corrected Path settings&#10;">
+      <created>1403642550926</created>
+      <updated>1403642550926</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -351,7 +354,8 @@
     <MESSAGE value="Cleaned up the directories only the needed files are uploaded&#10;" />
     <MESSAGE value="Removed display none to see animation" />
     <MESSAGE value="Corrected Path settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected Path settings" />
+    <MESSAGE value="Corrected Path settings&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected Path settings&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
