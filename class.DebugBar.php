@@ -76,3 +76,5 @@ class DebugBar {
         echo "<script type='text/javascript'>loaded();</script>";
     }*/
 }
+
+?>
