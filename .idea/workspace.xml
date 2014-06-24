@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52303453-d6e1-474a-be6b-0e03f158fc3c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DebugBar.js" afterPath="$PROJECT_DIR$/DebugBar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class.DebugBar.php" afterPath="$PROJECT_DIR$/class.DebugBar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DebugBar.iws" />
@@ -27,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="class.DebugBar.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="class.DebugBar.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class.DebugBar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="58" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.8339483" vertical-offset="214" max-vertical-offset="882">
+            <state line="42" column="58" selection-start="1117" selection-end="1117" vertical-scroll-proportion="-27.75" vertical-offset="0" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
@@ -39,7 +38,7 @@
       <file leaf-file-name="DebugBar.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DebugBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="47" selection-start="3740" selection-end="3740" vertical-scroll-proportion="0.0" vertical-offset="1800" max-vertical-offset="3924">
+            <state line="115" column="47" selection-start="3740" selection-end="3740" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3924">
               <folding />
             </state>
           </provider>
@@ -54,12 +53,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="5" selection-start="257" selection-end="257" vertical-scroll-proportion="-15.0" vertical-offset="90" max-vertical-offset="1080">
+            <state line="7" column="3" selection-start="85" selection-end="85" vertical-scroll-proportion="0.22702703" vertical-offset="0" max-vertical-offset="936">
               <folding>
                 <element signature="e#7#85#0" expanded="true" />
+                <element signature="e#639#693#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,10 +83,10 @@
         <option value="$PROJECT_DIR$/DebugBar.php" />
         <option value="$PROJECT_DIR$/Auto.php" />
         <option value="$PROJECT_DIR$/js/javascript.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/debugBar.css" />
         <option value="$PROJECT_DIR$/DebugBar.js" />
         <option value="$PROJECT_DIR$/class.DebugBar.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -297,7 +297,11 @@
       <created>1403639928481</created>
       <updated>1403639928481</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Corrected Path settings">
+      <created>1403640085374</created>
+      <updated>1403640085374</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -346,7 +350,8 @@
     <MESSAGE value="Beta version finished and polished a bit&#10;" />
     <MESSAGE value="Cleaned up the directories only the needed files are uploaded&#10;" />
     <MESSAGE value="Removed display none to see animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed display none to see animation" />
+    <MESSAGE value="Corrected Path settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected Path settings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -371,6 +376,7 @@
         <state line="15" column="3" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="918">
           <folding>
             <element signature="e#7#85#0" expanded="true" />
+            <element signature="e#639#693#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -387,6 +393,7 @@
         <state line="16" column="18" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="864">
           <folding>
             <element signature="e#7#85#0" expanded="true" />
+            <element signature="e#639#693#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -403,6 +410,7 @@
         <state line="16" column="18" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="720">
           <folding>
             <element signature="e#7#85#0" expanded="true" />
+            <element signature="e#639#693#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -421,12 +429,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/DebugBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="257" selection-end="257" vertical-scroll-proportion="-15.0" vertical-offset="90" max-vertical-offset="1080">
-          <folding>
-            <element signature="e#7#85#0" expanded="true" />
-          </folding>
+        <state line="115" column="47" selection-start="3740" selection-end="3740" vertical-scroll-proportion="0.0" vertical-offset="1800" max-vertical-offset="3924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class.DebugBar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="58" selection-start="1117" selection-end="1117" vertical-scroll-proportion="-27.75" vertical-offset="0" max-vertical-offset="882">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -437,17 +450,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DebugBar.js">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="47" selection-start="3740" selection-end="3740" vertical-scroll-proportion="0.0" vertical-offset="1800" max-vertical-offset="3924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class.DebugBar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="58" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.8339483" vertical-offset="214" max-vertical-offset="882">
-          <folding />
+        <state line="7" column="3" selection-start="85" selection-end="85" vertical-scroll-proportion="0.22702703" vertical-offset="0" max-vertical-offset="936">
+          <folding>
+            <element signature="e#7#85#0" expanded="true" />
+            <element signature="e#639#693#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
