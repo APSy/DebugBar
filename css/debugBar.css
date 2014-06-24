@@ -46,7 +46,7 @@
     padding: 10px;
     position: fixed;
     left: 0;
-    bottom: -202px;
+    bottom: -302px;
     min-width: 200px;
     min-height: 100px;
     -webkit-transition-property: bottom;
@@ -59,7 +59,8 @@
     transition: all 1s;
     color:white;
     background: white;
-    border: none;
+    border: 1px solid darkgray;
+    display: none;
 }
 
 /*@-webkit-keyframes move {
@@ -75,9 +76,10 @@
     -ms-animation: move 1s linear;
     animation: move 1s linear;*/
     color:black;
-    background: darkgray;
+    background: rgba(209, 209, 209, 1);
     bottom: 26px;
     border: 1px solid darkgray;
+    display: block;
 }
 
 #infoBox .hide {
