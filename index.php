@@ -25,19 +25,6 @@ DebugBar::start();
 
 <?php
 
-//set_error_handler('showSite404');
-//datefmt_set_timezone('Europe/Zurich');
-//spl_autoload_register('','');
-
-//require_once 'test.php';
-/*function showSite404() {
-
-}*/
-
-
-//$bla = new test();
-//$auto = new Auto();
-
 $_GET['blalal'] = 'test';
 $_GET['awd'] = 'get';
 $_POST['blalal'] = 'post';

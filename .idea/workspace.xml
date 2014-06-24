@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52303453-d6e1-474a-be6b-0e03f158fc3c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Auto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class.DebugBar.php" afterPath="$PROJECT_DIR$/class.DebugBar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DebugBar.iws" />
@@ -29,7 +34,7 @@
       <file leaf-file-name="class.DebugBar.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class.DebugBar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="2" selection-start="2830" selection-end="2830" vertical-scroll-proportion="0.86715865" vertical-offset="862" max-vertical-offset="1440">
+            <state line="45" column="0" selection-start="1530" selection-end="1530" vertical-scroll-proportion="1.3284132" vertical-offset="0" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
@@ -39,15 +44,6 @@
         <entry file="file://$PROJECT_DIR$/DebugBar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="116" column="144" selection-start="3895" selection-end="3895" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="3924">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="javascript.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/javascript.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -65,19 +61,10 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="6" selection-start="205" selection-end="205" vertical-scroll-proportion="19.625" vertical-offset="759" max-vertical-offset="1314">
+            <state line="25" column="5" selection-start="257" selection-end="257" vertical-scroll-proportion="-15.0" vertical-offset="90" max-vertical-offset="1080">
               <folding>
                 <element signature="e#7#85#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tmp.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="252">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -100,9 +87,9 @@
         <option value="$PROJECT_DIR$/DebugBar.php" />
         <option value="$PROJECT_DIR$/Auto.php" />
         <option value="$PROJECT_DIR$/js/javascript.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/DebugBar.js" />
         <option value="$PROJECT_DIR$/css/debugBar.css" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/class.DebugBar.php" />
       </list>
     </option>
@@ -186,6 +173,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="DebugBar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DebugBar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DebugBar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -288,12 +285,16 @@
       <created>1403636867374</created>
       <updated>1403636867374</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Beta version finished and polished a bit&#10;">
+      <created>1403638662109</created>
+      <updated>1403638662109</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="725" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -308,7 +309,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23990306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23990306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -348,13 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="34" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/debugBar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="14" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="594">
@@ -387,13 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class.DebugBar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="45" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
@@ -407,13 +394,6 @@
           <folding>
             <element signature="e#7#85#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -431,35 +411,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Auto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.09694794" vertical-offset="0" max-vertical-offset="557" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="84" selection-end="84" vertical-scroll-proportion="0.032315977" vertical-offset="0" max-vertical-offset="557">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="252">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DebugBar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="116" column="144" selection-start="3895" selection-end="3895" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="3924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
@@ -473,7 +427,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="205" selection-end="205" vertical-scroll-proportion="19.625" vertical-offset="759" max-vertical-offset="1314">
+        <state line="25" column="5" selection-start="257" selection-end="257" vertical-scroll-proportion="-15.0" vertical-offset="90" max-vertical-offset="1080">
           <folding>
             <element signature="e#7#85#0" expanded="true" />
           </folding>
@@ -482,7 +436,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class.DebugBar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="2" selection-start="2830" selection-end="2830" vertical-scroll-proportion="0.86715865" vertical-offset="862" max-vertical-offset="1440">
+        <state line="45" column="0" selection-start="1530" selection-end="1530" vertical-scroll-proportion="1.3284132" vertical-offset="0" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
