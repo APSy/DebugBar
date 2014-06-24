@@ -21,19 +21,6 @@ var DebugBar = function() {
     this.stack = [];
     this.session = [];
 
-
-    // PHP ARRAY TO STRING JAVASCRIPT NICE
-    /*this.arrayToString = function(arr) {
-        var string = "";
-        console.log(arr);
-        for(var key in arr) {
-            console.log(arr[key]);
-            console.log(key);
-            string += key;
-        }
-        return string;
-    };
-*/
     this.init = function(get, post, session, stack) {
         // create and add the Elements
         this.post = post;
@@ -51,7 +38,6 @@ var DebugBar = function() {
         tmp.appendChild(memText);
 
         this.addInfoBox();
-
 
         if (get.length != 0) {
             this.createEleAndAdd('div', 'debugBar_get', 'debugBar');
@@ -73,7 +59,6 @@ var DebugBar = function() {
             this.createAndAttachTextNode('Backtrace', 'debugBar_stack');
             this.bindEvent('debugBar_stack');
         }
-
     };
 
     this.addInfoBox = function() {
@@ -145,12 +130,9 @@ function togglePopUp(event, get, post, session, stack) {
     var infoBox = document.getElementById('infoBox');
     // delete infobox content
     infoBox.innerHTML = "";
-
     switch(eventId) {
         case 'debugBar_get':
             infoBox.innerHTML = print_r(get.get);
-//            var tmp = document.createTextNode(print_r(get.get));
-//            infoBox.appendChild(tmp);
             break;
         case 'debugBar_post':
             infoBox.innerHTML = print_r(post.post);
@@ -167,7 +149,6 @@ function togglePopUp(event, get, post, session, stack) {
     // save action so we can check if the same is clicked
     if(lastAction == '') {
         lastAction = eventId;
-//        alert("test");
         // nothing clicked so show
         infoBox.className = 'show';
     }

@@ -6,6 +6,7 @@
     left: 0;
     border: 1px solid darkgray;
     z-index: 10000;
+    background: rgba(209, 209, 209, 1);
 }
 
 #debugBar_memory {
@@ -41,11 +42,13 @@
 }
 
 #infoBox {
+    border-radius: 5px;
+    padding: 10px;
     position: fixed;
     left: 0;
     bottom: -202px;
     min-width: 200px;
-    min-height: 200px;
+    min-height: 100px;
     -webkit-transition-property: bottom;
     -webkit-transition-duration: 0.5s;
     z-index: 1000;
