@@ -44,12 +44,19 @@
     position: fixed;
     left: 0;
     bottom: -202px;
-    min-width: 500px;
+    min-width: 200px;
     min-height: 200px;
-    border: 1px solid darkgray;
     -webkit-transition-property: bottom;
     -webkit-transition-duration: 0.5s;
     z-index: 1000;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    color:white;
+    background: white;
+    border: none;
 }
 
 /*@-webkit-keyframes move {
@@ -64,7 +71,10 @@
     -o-animation: move 1s linear;
     -ms-animation: move 1s linear;
     animation: move 1s linear;*/
+    color:black;
+    background: darkgray;
     bottom: 26px;
+    border: 1px solid darkgray;
 }
 
 #infoBox .hide {

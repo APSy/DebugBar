@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52303453-d6e1-474a-be6b-0e03f158fc3c" name="Default" comment="">
+    <list default="true" id="52303453-d6e1-474a-be6b-0e03f158fc3c" name="Default" comment="Beta version finished">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DebugBar.js" afterPath="$PROJECT_DIR$/DebugBar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class.DebugBar.php" afterPath="$PROJECT_DIR$/class.DebugBar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/debugBar.css" afterPath="$PROJECT_DIR$/css/debugBar.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -40,7 +39,7 @@
       <file leaf-file-name="DebugBar.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DebugBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="210" column="55" selection-start="6306" selection-end="6306" vertical-scroll-proportion="0.0" vertical-offset="3633" max-vertical-offset="4536">
+            <state line="215" column="28" selection-start="6686" selection-end="6686" vertical-scroll-proportion="0.0" vertical-offset="3744" max-vertical-offset="4284">
               <folding />
             </state>
           </provider>
@@ -58,7 +57,7 @@
       <file leaf-file-name="debugBar.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/debugBar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="19" selection-start="726" selection-end="726" vertical-scroll-proportion="0.37823835" vertical-offset="591" max-vertical-offset="1386">
+            <state line="52" column="4" selection-start="907" selection-end="907" vertical-scroll-proportion="0.33245382" vertical-offset="810" max-vertical-offset="1566">
               <folding />
             </state>
           </provider>
@@ -104,8 +103,8 @@
         <option value="$PROJECT_DIR$/js/javascript.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/class.DebugBar.php" />
-        <option value="$PROJECT_DIR$/DebugBar.js" />
         <option value="$PROJECT_DIR$/css/debugBar.css" />
+        <option value="$PROJECT_DIR$/DebugBar.js" />
       </list>
     </option>
   </component>
@@ -280,7 +279,11 @@
       <created>1403472509534</created>
       <updated>1403472509534</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Popup now shows content">
+      <created>1403632813912</created>
+      <updated>1403632813912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -297,7 +300,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294893" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23990306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -324,7 +327,9 @@
     </option>
     <MESSAGE value="Added Popup with CSS3" />
     <MESSAGE value="Added Popup with CSS3&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Popup with CSS3&#10;" />
+    <MESSAGE value="Popup now shows content" />
+    <MESSAGE value="Beta version finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beta version finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -439,19 +444,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="20" selection-start="450" selection-end="450" vertical-scroll-proportion="-5.2083335" vertical-offset="541" max-vertical-offset="1314">
           <folding>
             <element signature="e#7#85#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="900">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -464,14 +469,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DebugBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="55" selection-start="6306" selection-end="6306" vertical-scroll-proportion="0.0" vertical-offset="3633" max-vertical-offset="4536">
+        <state line="215" column="28" selection-start="6686" selection-end="6686" vertical-scroll-proportion="0.0" vertical-offset="3744" max-vertical-offset="4284">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/debugBar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="19" selection-start="726" selection-end="726" vertical-scroll-proportion="0.37823835" vertical-offset="591" max-vertical-offset="1386">
+        <state line="52" column="4" selection-start="907" selection-end="907" vertical-scroll-proportion="0.33245382" vertical-offset="810" max-vertical-offset="1566">
           <folding />
         </state>
       </provider>

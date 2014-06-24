@@ -21,7 +21,6 @@ var DebugBar = function() {
     this.stack = [];
     this.session = [];
 
-    this.lastAction = '';
 
     // PHP ARRAY TO STRING JAVASCRIPT NICE
     /*this.arrayToString = function(arr) {
@@ -182,19 +181,6 @@ function togglePopUp(event, get, post, session, stack) {
         infoBox.className = 'show';
     }
     lastAction = eventId;
-    console.log(lastAction);
-    return;
-
-
-    if(infoBox.className == 'show') {
-        infoBox.className = 'hide'
-    } else {
-        alert(111);
-        infoBox.className = 'show';
-    }
-
-
-
 }
 
 function init(totalTime, memory, get, post, session, stack, optionalOptions) {
