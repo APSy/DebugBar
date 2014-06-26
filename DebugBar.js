@@ -102,7 +102,7 @@ var DebugBar = function() {
         this.addToHTML(newEle, parentEle);
     };
 
-    this.setOptions = function(options) {
+    this.setOptions = function(options, path) {
         this.defaultConfig.color = options[0];
         if(options[1] > 20 || options[1] < 10) {
             this.defaultConfig.fontsize = 12;
@@ -111,14 +111,14 @@ var DebugBar = function() {
             this.defaultConfig.fontsize = options[1];
         }
         this.defaultConfig.autohide = options[2];
-        this.printStyleOptions();
+        this.printStyleOptions(path);
     };
 
-    this.printStyleOptions = function() {
+    this.printStyleOptions = function(path) {
         var style = document.createElement("style");
         var linkCss = document.createElement("link");
         linkCss.setAttribute('rel', 'stylesheet');
-        linkCss.setAttribute('href', 'css/debugBar.css');
+        linkCss.setAttribute('href', path+'/css/debugBar.css');
         var css = document.createTextNode('#debugBar { color:'+this.defaultConfig.color+'; font-size:'+this.defaultConfig.fontsize+'px; } #infoBox {font-size:'+this.defaultConfig.fontsize+'px; }');
         style.appendChild(css);
         document.body.appendChild(linkCss);
@@ -168,9 +168,9 @@ function togglePopUp(event, get, post, session, watched) {
     lastAction = eventId;
 }
 
-function init(totalTime, memory, get, post, session, watched, optionalOptions) {
+function init(totalTime, memory, get, post, session, watched, optionalOptions, path) {
     var DBar = new DebugBar();
-    DBar.setOptions(optionalOptions);
+    DBar.setOptions(optionalOptions, path);
     DBar.setTimeAndMemory(totalTime, memory);
     DBar.init(get, post, session, watched);
 }
