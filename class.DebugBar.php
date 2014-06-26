@@ -19,31 +19,53 @@ class DebugBar {
     private static $totalTime = 0;
     private static $stack = array();
     private static $options = array();
+    private static $watched = array();
+    private static $path = "";
 
-    public static function start () {
+    /**
+     * @param $path path to the DebugBar Folder
+     */
+    public static function start ($path) {
+        if(is_string($path) && !empty($path)) {
+            self::$path = $path;
+        }
+        else {
+            die("No path specified, i need the path to the DebugBar folder in order to work");
+        }
         self::$timeStart = microtime(true);
         self::$stack = debug_backtrace();
     }
 
+    /**
+     * @param array $options can be set by user these are just standard values
+     * Call this function to stop measuring time
+     */
     public static function stop ($options = array('#121212', '12', 'false')) {
         self::$options = $options;
         self::$timeEnd = microtime(true);
         self::$totalTime = number_format((self::$timeEnd - self::$timeStart), 2);
         self::$mem = round(($mem_usage=memory_get_usage(true))/1048576,2);
-        self::printJS(null);
+        self::printJS();
     }
 
-//    private static function getNamespace () {
-//        echo '<pre>Debug: ';
-//        echo print_r(self::$stack, true);
-//        echo '</pre>';
-//    }
-
-    private static function printJS ($params) {
-        echo '<script type="text/javascript" src="DebugBar/DebugBar.js"></script>';
-        echo '<script type="text/javascript">init(' . self::$totalTime . ','. self::$mem .', {get:'.json_encode($_GET).',length:'.count($_GET).'}, {post:'.json_encode($_POST).', length:'.count($_POST).'} , {session:'.json_encode($_SESSION).', length:'.count($_SESSION).' }, {stack:'.json_encode(self::$stack).', length:'.count(self::$stack).'}, '.json_encode(self::$options).' )</script>';
+    /**
+     * This function will print all the JS needed to show the debugbar and its values
+     */
+    private static function printJS () {
+        echo '<script type="text/javascript" src="DebugBar.js"></script>';
+        echo '<script type="text/javascript">init(' . self::$totalTime . ','. self::$mem .', {get:'.json_encode($_GET).',length:'.count($_GET).'}, {post:'.json_encode($_POST).', length:'.count($_POST).'} , {session:'.json_encode($_SESSION).', length:'.count($_SESSION).' }, {watched:'.json_encode(self::$watched).', length:'.count(self::$watched).'}, '.json_encode(self::$options).' )</script>';
     }
 
+    public static function watch ($variable, $key) {
+        if(is_array($variable)) {
+            $tmp = array($key => $variable);
+            array_push(self::$watched, $tmp);
+        }
+        else {
+            $text = array($key => $variable);
+            array_push(self::$watched, $text);
+        }
+    }
 }
 
 ?>

@@ -11,7 +11,8 @@ require_once 'class.DebugBar.php';
 use \Debug\DebugBar;
 // Call the start function
 // TODO: fix path problem maybe with you need to provide path to the DebugBar class
-DebugBar::start();
+DebugBar::start(__DIR__);
+session_start();
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,11 +20,23 @@ DebugBar::start();
     <title></title>
 </head>
 <body>
-// Do your things
 <?php
+// Do your stuff
 $_GET['blalal'] = 'test';
 $_GET['awd'] = 'get';
 $_POST['blalal'] = 'post';
+$sql = "SELECT * FROM bla";
+$sql2 = "SELECT * FROM 2";
+
+$sql3 = "SELECT * FROM 3";
+$sql4 = array(array("test" => array("bla", "blubl")));
+
+DebugBar::watch($sql, "SQL Statement");
+DebugBar::watch($sql2, "SQL Statement");
+DebugBar::watch($sql3, "SQL Statement");
+DebugBar::watch($sql4, "SQL Statement as array");
+DebugBar::watch($sql4, "SQL Statement as array");
+
 
 $_GET['blalal'] = 'test';
 $_GET['awd'] = 'get';

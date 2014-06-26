@@ -132,7 +132,7 @@ var lastAction = '';
 function togglePopUp(event, get, post, session, watched) {
     var eventId = event.target.id;
     var infoBox = document.getElementById('infoBox');
-    // delete infobox content
+    // delete InfoBox content
     infoBox.innerHTML = "";
     switch(eventId) {
         case 'debugBar_get':
@@ -145,7 +145,7 @@ function togglePopUp(event, get, post, session, watched) {
             infoBox.innerHTML = print_r(session.session);
             break;
         case 'debugBar_watch':
-            infoBox.innerHTML = print_r(watched.watched);
+            infoBox.innerHTML = print_r_adv(watched.watched);
             break;
         default:
             break;
@@ -213,4 +213,20 @@ function print_r(arr, level) {
         dumped_text = "===>" + arr + "<===(" + typeof(arr) + ")";
     }
     return dumped_text;
+}
+
+function print_r_adv (array, nestedKey) {
+    var text = "";
+    if(typeof nestedKey) {
+        text += nestedKey+": ";
+    }
+    for(var key in array) {
+        if(typeof array[key] == "object") {
+            text += print_r_adv(array[key], key);
+        }
+        else {
+            text += key + " => " + array[key] + "<br />";
+        }
+    }
+    return text;
 }
