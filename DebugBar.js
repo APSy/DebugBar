@@ -17,15 +17,15 @@ var DebugBar = function() {
 
     this.get = [];
     this.post = [];
-    this.stack = [];
+    this.watched = [];
     this.session = [];
 
-    this.init = function(get, post, session, stack) {
+    this.init = function(get, post, session, watched) {
         // create and add the Elements
         this.post = post;
         this.get = get;
         this.session = session;
-        this.stack = stack;
+        this.watched = watched;
         this.createEleAndAdd('div', 'debugBar');
         this.createEleAndAdd('div', 'debugBar_time', 'debugBar');
         this.createEleAndAdd('div', 'debugBar_memory', 'debugBar');
@@ -53,10 +53,10 @@ var DebugBar = function() {
             this.createAndAttachTextNode('$_SESSION', 'debugBar_session');
             this.bindEvent('debugBar_session');
         }
-        if (stack.length != 0) {
-            this.createEleAndAdd('div', 'debugBar_stack', 'debugBar');
-            this.createAndAttachTextNode('Backtrace', 'debugBar_stack');
-            this.bindEvent('debugBar_stack');
+        if (watched.length != 0) {
+            this.createEleAndAdd('div', 'debugBar_watch', 'debugBar');
+            this.createAndAttachTextNode('watched variables', 'debugBar_watch');
+            this.bindEvent('debugBar_watch');
         }
     };
 
@@ -75,9 +75,9 @@ var DebugBar = function() {
         var get = this.get;
         var post = this.post;
         var session = this.session;
-        var stack = this.stack;
+        var watched = this.watched;
         document.getElementById(id).onclick = function(event) {
-            togglePopUp(event, get, post, session, stack );
+            togglePopUp(event, get, post, session, watched );
         };
     };
 
@@ -104,7 +104,12 @@ var DebugBar = function() {
 
     this.setOptions = function(options) {
         this.defaultConfig.color = options[0];
-        this.defaultConfig.fontsize = options[1];
+        if(options[1] > 20 || options[1] < 10) {
+            this.defaultConfig.fontsize = 12;
+        }
+        else {
+            this.defaultConfig.fontsize = options[1];
+        }
         this.defaultConfig.autohide = options[2];
         this.printStyleOptions();
     };
@@ -113,7 +118,7 @@ var DebugBar = function() {
         var style = document.createElement("style");
         var linkCss = document.createElement("link");
         linkCss.setAttribute('rel', 'stylesheet');
-        linkCss.setAttribute('href', 'DebugBar/css/debugBar.css');
+        linkCss.setAttribute('href', 'css/debugBar.css');
         var css = document.createTextNode('#debugBar { color:'+this.defaultConfig.color+'; font-size:'+this.defaultConfig.fontsize+'px; } #infoBox {font-size:'+this.defaultConfig.fontsize+'px; }');
         style.appendChild(css);
         document.body.appendChild(linkCss);
@@ -124,8 +129,8 @@ var DebugBar = function() {
 
 var lastAction = '';
 
-function togglePopUp(event, get, post, session, stack) {
-    var eventId = event.toElement.id;
+function togglePopUp(event, get, post, session, watched) {
+    var eventId = event.target.id;
     var infoBox = document.getElementById('infoBox');
     // delete infobox content
     infoBox.innerHTML = "";
@@ -139,8 +144,8 @@ function togglePopUp(event, get, post, session, stack) {
         case 'debugBar_session':
             infoBox.innerHTML = print_r(session.session);
             break;
-        case 'debugBar_stack':
-            infoBox.innerHTML = print_r(stack.stack);
+        case 'debugBar_watch':
+            infoBox.innerHTML = print_r(watched.watched);
             break;
         default:
             break;
@@ -163,11 +168,11 @@ function togglePopUp(event, get, post, session, stack) {
     lastAction = eventId;
 }
 
-function init(totalTime, memory, get, post, session, stack, optionalOptions) {
+function init(totalTime, memory, get, post, session, watched, optionalOptions) {
     var DBar = new DebugBar();
     DBar.setOptions(optionalOptions);
     DBar.setTimeAndMemory(totalTime, memory);
-    DBar.init(get, post, session, stack);
+    DBar.init(get, post, session, watched);
 }
 
 /**
@@ -207,7 +212,5 @@ function print_r(arr, level) {
     } else { //Stings/Chars/Numbers etc.
         dumped_text = "===>" + arr + "<===(" + typeof(arr) + ")";
     }
-
     return dumped_text;
-
 }
