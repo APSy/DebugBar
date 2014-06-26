@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52303453-d6e1-474a-be6b-0e03f158fc3c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DebugBar.js" afterPath="$PROJECT_DIR$/DebugBar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class.DebugBar.php" afterPath="$PROJECT_DIR$/class.DebugBar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/debugBar.css" afterPath="$PROJECT_DIR$/css/debugBar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DebugBar.iws" />
@@ -29,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="class.DebugBar.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="class.DebugBar.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class.DebugBar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="45" selection-start="2213" selection-end="2213" vertical-scroll-proportion="-7.08" vertical-offset="708" max-vertical-offset="1278">
+            <state line="54" column="66" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.5453502" vertical-offset="407" max-vertical-offset="1278">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DebugBar.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DebugBar.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DebugBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="18" selection-start="7072" selection-end="7072" vertical-scroll-proportion="0.49116609" vertical-offset="3646" max-vertical-offset="4266">
+            <state line="120" column="37" selection-start="3902" selection-end="3902" vertical-scroll-proportion="0.0" vertical-offset="1574" max-vertical-offset="4266">
               <folding />
             </state>
           </provider>
@@ -59,14 +56,8 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="54" selection-start="644" selection-end="644" vertical-scroll-proportion="-2.875" vertical-offset="489" max-vertical-offset="1152">
-              <folding>
-                <element signature="e#7#85#0" expanded="true" />
-                <element signature="e#1023#1077#0" expanded="true" />
-                <marker date="1403762817000" expanded="true" signature="515:532" placeholder="SELECT * FRO..bla..." />
-                <marker date="1403762817000" expanded="true" signature="544:559" placeholder="SELECT * FRO..." />
-                <marker date="1403762817000" expanded="true" signature="572:587" placeholder="SELECT * FRO..." />
-              </folding>
+            <state line="31" column="54" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="489" max-vertical-offset="1152">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,17 +81,17 @@
         <option value="$PROJECT_DIR$/Auto.php" />
         <option value="$PROJECT_DIR$/js/javascript.js" />
         <option value="$PROJECT_DIR$/css/debugBar.css" />
-        <option value="$PROJECT_DIR$/class.DebugBar.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/DebugBar.js" />
+        <option value="$PROJECT_DIR$/class.DebugBar.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="725" />
+    <option name="y" value="3" />
+    <option name="width" value="1920" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -169,6 +160,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,7 +181,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,7 +314,11 @@
       <created>1403760947152</created>
       <updated>1403760947152</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added Path functionality">
+      <created>1403767159838</created>
+      <updated>1403767159838</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -347,30 +342,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="725" extended-state="0" />
+    <frame x="0" y="3" width="1920" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784185" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34102142" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23990306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23981191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784185" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -397,12 +393,41 @@
     <MESSAGE value="Added Comments for use and cleaned up the code a bit" />
     <MESSAGE value="Added Comments for use and cleaned up the code a bit&#10;" />
     <MESSAGE value="Fixed a bug where Firefox was not able to recognize which tab was clicked" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug where Firefox was not able to recognize which tab was clicked" />
+    <MESSAGE value="Added Path functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Path functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/class.DebugBar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="45" selection-start="2213" selection-end="2213" vertical-scroll-proportion="0.0" vertical-offset="1152" max-vertical-offset="1368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DebugBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="218" column="18" selection-start="7072" selection-end="7072" vertical-scroll-proportion="0.0" vertical-offset="3646" max-vertical-offset="4266">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/debugBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="3" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="852" max-vertical-offset="1692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="54" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="489" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/class.DebugBar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="16" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1368">
@@ -420,13 +445,7 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="3" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="918">
-          <folding>
-            <element signature="e#7#85#0" expanded="true" />
-            <element signature="e#1023#1077#0" expanded="true" />
-            <marker date="1403762817000" expanded="true" signature="515:532" placeholder="SELECT * FRO..bla..." />
-            <marker date="1403762817000" expanded="true" signature="544:559" placeholder="SELECT * FRO..." />
-            <marker date="1403762817000" expanded="true" signature="572:587" placeholder="SELECT * FRO..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -440,13 +459,7 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="18" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="864">
-          <folding>
-            <element signature="e#7#85#0" expanded="true" />
-            <element signature="e#1023#1077#0" expanded="true" />
-            <marker date="1403762817000" expanded="true" signature="515:532" placeholder="SELECT * FRO..bla..." />
-            <marker date="1403762817000" expanded="true" signature="544:559" placeholder="SELECT * FRO..." />
-            <marker date="1403762817000" expanded="true" signature="572:587" placeholder="SELECT * FRO..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -460,13 +473,7 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="18" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="720">
-          <folding>
-            <element signature="e#7#85#0" expanded="true" />
-            <element signature="e#1023#1077#0" expanded="true" />
-            <marker date="1403762817000" expanded="true" signature="515:532" placeholder="SELECT * FRO..bla..." />
-            <marker date="1403762817000" expanded="true" signature="544:559" placeholder="SELECT * FRO..." />
-            <marker date="1403762817000" expanded="true" signature="572:587" placeholder="SELECT * FRO..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -479,16 +486,12 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/SPL_f.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="3" selection-start="4530" selection-end="4530" vertical-scroll-proportion="1.5816876" vertical-offset="1495" max-vertical-offset="3564">
-          <folding />
-        </state>
+        <state line="132" column="3" selection-start="4530" selection-end="4530" vertical-scroll-proportion="1.5816876" vertical-offset="1495" max-vertical-offset="3564" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="962" column="9" selection-start="30821" selection-end="30821" vertical-scroll-proportion="0.41261262" vertical-offset="17087" max-vertical-offset="19836">
-          <folding />
-        </state>
+        <state line="962" column="9" selection-start="30821" selection-end="30821" vertical-scroll-proportion="0.41261262" vertical-offset="17087" max-vertical-offset="19836" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/debugBar.css">
@@ -498,29 +501,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class.DebugBar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="45" selection-start="2213" selection-end="2213" vertical-scroll-proportion="-7.08" vertical-offset="708" max-vertical-offset="1278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="54" selection-start="644" selection-end="644" vertical-scroll-proportion="-2.875" vertical-offset="489" max-vertical-offset="1152">
-          <folding>
-            <element signature="e#7#85#0" expanded="true" />
-            <element signature="e#1023#1077#0" expanded="true" />
-            <marker date="1403762817000" expanded="true" signature="515:532" placeholder="SELECT * FRO..bla..." />
-            <marker date="1403762817000" expanded="true" signature="544:559" placeholder="SELECT * FRO..." />
-            <marker date="1403762817000" expanded="true" signature="572:587" placeholder="SELECT * FRO..." />
-          </folding>
+        <state line="31" column="54" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="489" max-vertical-offset="1152">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DebugBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="18" selection-start="7072" selection-end="7072" vertical-scroll-proportion="0.49116609" vertical-offset="3646" max-vertical-offset="4266">
+        <state line="120" column="37" selection-start="3902" selection-end="3902" vertical-scroll-proportion="0.0" vertical-offset="1574" max-vertical-offset="4266">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class.DebugBar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="66" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.5453502" vertical-offset="407" max-vertical-offset="1278">
           <folding />
         </state>
       </provider>
