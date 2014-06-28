@@ -22,10 +22,13 @@ var DebugBar = function() {
 
     this.init = function(get, post, session, watched) {
         // create and add the Elements
+//        console.log(watched);
+        var test = JSON.parse(watched);
+//        console.log(test);
         this.post = post;
         this.get = get;
         this.session = session;
-        this.watched = watched;
+        this.watched = test;
         this.createEleAndAdd('div', 'debugBar');
         this.createEleAndAdd('div', 'debugBar_time', 'debugBar');
         this.createEleAndAdd('div', 'debugBar_memory', 'debugBar');
@@ -145,7 +148,8 @@ function togglePopUp(event, get, post, session, watched) {
             infoBox.innerHTML = print_r(session.session);
             break;
         case 'debugBar_watch':
-            infoBox.innerHTML = print_r_adv(watched.watched);
+//            console.log(watched);
+            infoBox.innerHTML = print_r_adv(watched);
             break;
         default:
             break;
@@ -208,24 +212,27 @@ function print_r(arr, level) {
             }
 
         }
-        dumped_text += bracket_level_padding + ")<br /><br />";
+        dumped_text += bracket_level_padding + ")<br />";
     } else { //Stings/Chars/Numbers etc.
         dumped_text = "===>" + arr + "<===(" + typeof(arr) + ")";
     }
     return dumped_text;
 }
 
-function print_r_adv (array, nestedKey) {
+function print_r_adv (para) {
     var text = "";
-    if(typeof nestedKey) {
-        text += nestedKey+": ";
-    }
-    for(var key in array) {
-        if(typeof array[key] == "object") {
-            text += print_r_adv(array[key], key);
-        }
-        else {
-            text += key + " => " + array[key] + "<br />";
+    var copy = para.slice(0);
+
+    while (copy.length > 0) {
+        var tmpArray = new Array();
+        tmpArray = copy.shift();
+        for (var obj in tmpArray) {
+            if(typeof tmpArray[obj] == "object") {
+                text += "<br />"+ obj + ": " + print_r(tmpArray[obj]);
+            }
+            else {
+                text += obj + " => " + tmpArray[obj]+ "<br />";
+            }
         }
     }
     return text;

@@ -32,6 +32,22 @@
 #debugBar_get, #debugBar_post, #debugBar_session, #debugBar_watch {
     cursor: pointer;
 }
+
+#debugBar_memory {
+    background: url("icons/mem_icon.png") no-repeat top 5px left;
+    background-size: 15px;
+}
+
+#debugBar_time {
+    background: url("icons/stopwatch_icon.png") no-repeat top 5px left;
+    background-size: 15px;
+}
+
+#debugBar_session, #debugBar_post, #debugBar_get, #debugBar_watch {
+    background: url("icons/stack_icon_n.png") no-repeat top 6px left 2px;
+    background-size: 13px;
+}
+
 div#debugBar_watch {
     padding-top: 0px;
 }
@@ -63,6 +79,8 @@ div#debugBar_watch {
     color:white;
     background: white;
     border: 1px solid darkgray;
+    overflow: scroll;
+    max-height: 300px;
 }
 
 /*@-webkit-keyframes move {
