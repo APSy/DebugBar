@@ -11,7 +11,7 @@ require_once 'class.DebugBar.php';
 use \Debug\DebugBar;
 // Call the start function
 // TODO: fix path problem maybe with you need to provide path to the DebugBar class
-DebugBar::start(__DIR__);
+DebugBar::start("./");
 session_start();
 ?>
 <!DOCTYPE html>

@@ -55,7 +55,7 @@ class DebugBar {
         echo '<script type="text/javascript" src="DebugBar.js"></script>';
         // create JSON String out of watched variables
         $JSONString = self::toJSONString(self::$watched);
-        echo '<script type="text/javascript">init(' . self::$totalTime . ','. self::$mem .', {get:'.json_encode($_GET).',length:'.count($_GET).'}, {post:'.json_encode($_POST).', length:'.count($_POST).'} , {session:'.json_encode($_SESSION).', length:'.count($_SESSION).' }, \''.$JSONString.'\' , '.json_encode(self::$options).' )</script>';
+        echo '<script type="text/javascript">init(' . self::$totalTime . ','. self::$mem .', {get:'.json_encode($_GET).',length:'.count($_GET).'}, {post:'.json_encode($_POST).', length:'.count($_POST).'} , {session:'.json_encode($_SESSION).', length:'.count($_SESSION).' }, \''.$JSONString.'\' , '.json_encode(self::$options).', "'.self::$path.'" )</script>';
     }
 
     private static function toJSONString ($arr) {
